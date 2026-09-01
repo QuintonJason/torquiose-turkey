@@ -6,6 +6,24 @@ body {
     margin: auto;
 }
 
+p {
+    color: #800080;
+}
+
+.intro-copy {
+    color: #c459e1;
+}
+
+.biggest {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.home-caption {
+    text-align: left;
+}
+
 img {
     border: 10px solid #006400;
 }
