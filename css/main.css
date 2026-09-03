@@ -6,6 +6,10 @@ body {
     margin: auto;
 }
 
+a {
+    color: #006400;
+}
+
 p {
     color: #800080;
 }
