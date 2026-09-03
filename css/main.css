@@ -10,6 +10,21 @@ p {
     color: #800080;
 }
 
+nav {
+    margin-top: 10px
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 4px;
+    background-color: #006400;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
 .intro-copy {
     color: #c459e1;
 }
@@ -20,8 +35,16 @@ p {
     font-style: italic;
 }
 
+.logo {
+    max-width: 100px;
+}
+
 .home-caption {
     text-align: left;
+}
+
+.breakfast-list {
+    list-style-position: inside;
 }
 
 img {
