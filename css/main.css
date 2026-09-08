@@ -1,22 +1,37 @@
 /* Place CSS styles here */
+
+nav {
+    text-align: left;
+    margin-top: 10px
+}
+
 body {
     background: #90ee90;
     text-align: center;
     width: 80%;
     margin: auto;
+    color: #ffc0cb;
 }
+
+
+a {
+    color: orange;
+}
+
 
 a {
     color: #006400;
+    border-radius: 2px;
+}
+
+a:focus-visible {
+    outline: #006400 solid 2px;
 }
 
 p {
     color: #800080;
 }
 
-nav {
-    margin-top: 10px
-}
 
 nav a {
     font-size: 18px;
@@ -27,6 +42,11 @@ nav a {
     padding: 8px 12px;
     border-radius: 12px;
     text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+nav a:hover{
+    background-color: #002500;
 }
 
 .intro-copy {
