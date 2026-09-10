@@ -51,6 +51,27 @@ nav a:hover{
     color: #c459e1;
 }
 
+.bg-img {
+    background-image: url(../img/castle-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1.bg-img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.no-word-bg-img {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.home-bg-img {
+    background-image: url(../img/giz2.jpg);
+}
+
 .biggest {
     font-size: 30px;
     font-weight: 700;
