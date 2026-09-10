@@ -8,16 +8,9 @@ nav {
 body {
     background: #90ee90;
     text-align: center;
-    width: 80%;
     margin: auto;
     color: #ffc0cb;
 }
-
-
-a {
-    color: orange;
-}
-
 
 a {
     color: #006400;
@@ -49,7 +42,12 @@ nav a:hover{
     background-color: #002500;
 }
 
-.intro-copy {
+.turkey-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.intro-copy p {
     color: #c459e1;
 }
 
@@ -73,4 +71,13 @@ nav a:hover{
 
 img {
     border: 10px solid #006400;
+}
+
+.about-image {
+    width: 400px;
+    transition: all 0.35s ease;
+}
+
+.about-image:hover {
+    box-shadow: 0px 0px 8px 0px #000000;
 }
