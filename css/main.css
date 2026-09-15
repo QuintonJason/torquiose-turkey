@@ -10,6 +10,21 @@ body {
     text-align: center;
     margin: auto;
     color: #ffc0cb;
+    font-family: Cambria, Georgia, serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 a {
@@ -23,12 +38,15 @@ a:focus-visible {
 
 p {
     color: #800080;
+    text-align: left;
+    line-height: 1.5;
 }
 
 
 nav a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     margin-right: 4px;
     background-color: #006400;
     color: #ffffff;
@@ -61,6 +79,13 @@ nav a:hover{
 h1.bg-img {
     padding-top: 50px;
     padding-bottom: 50px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
 }
 
 .no-word-bg-img {
@@ -76,6 +101,10 @@ h1.bg-img {
     font-size: 30px;
     font-weight: 700;
     font-style: italic;
+}
+
+.contact-label {
+    text-align: center
 }
 
 .logo {
@@ -102,3 +131,5 @@ img {
 .about-image:hover {
     box-shadow: 0px 0px 8px 0px #000000;
 }
+
+
