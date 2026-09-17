@@ -9,8 +9,10 @@ body {
     background: #90ee90;
     text-align: center;
     margin: auto;
-    color: #ffc0cb;
-    font-family: Cambria, Georgia, serif;
+    color: #5c2424;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     font-size: 16px;
 }
 
@@ -23,9 +25,10 @@ header {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
     text-transform: uppercase;
 }
+
 
 a {
     color: #006400;
@@ -44,8 +47,6 @@ p {
 
 
 nav a {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
     font-weight: 600;
     margin-right: 4px;
     background-color: #006400;
@@ -70,15 +71,23 @@ nav a:hover{
 }
 
 .bg-img {
-    background-image: url(../img/castle-bg.jpg);
+    /* https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    /* bottom, image */
+    url(../img/castle-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-h1.bg-img {
+.bg-img h1 {
     padding-top: 50px;
     padding-bottom: 50px;
+    color:#bed43a;
     text-shadow: 1px 1px 2px black;
 }
 
